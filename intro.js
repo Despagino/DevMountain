@@ -1,23 +1,12 @@
 
-console.log("Hello World!")
 
-let firstName = "Gino"
-let age= 22
-let isCool = true
-let height
-let weight = null
+var array = [1, 4, 11, 2, 37, -4]
 
-console.log(firstName, age , isCool, height, weight)
+for (let i = 0; i < array.length; i++) {
+ 
+        let largest = Math.max(array)
+        let smallest = Math.min(array)
+    console.log(largest, smallest)
 
-let x = 5
-let y = 10
-let z = 2
+}
 
-let sum = x+y+z
-console.log(sum)
-
-let str = "Gino Tasis"
-let str2 = "Jules Tasis"
-let str3 = `Hello my name is ${str}`
-
-console.log(str3)
